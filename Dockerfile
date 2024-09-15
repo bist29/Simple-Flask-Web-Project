@@ -1,5 +1,6 @@
 # syntax=docker/dockerfile:1
 
+
 FROM python:3.10-alpine
 WORKDIR /flask
 RUN apk add --no-cache gcc musl-dev linux-headers
